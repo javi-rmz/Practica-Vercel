@@ -1,0 +1,92 @@
+body {
+
+    background-color: rgb(160, 232, 240);
+
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 36px;
+    left: 30%; /* Se coloca en la mitad del contenedor padre */
+    top: 20px;
+} 
+
+.products {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: 100%; /* Ancho máximo igual al ancho disponible */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    position: relative; /* Asegura que los elementos posicionados relativamente dentro de .dispositivoIni se ubiquen correctamente */
+}
+
+.products .box {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 100px; /* Ancho del div */
+    height: 200px; /* Altura del div */
+}
+.products {
+    display: flex; /* Utilizar flexbox para el diseño */
+    justify-content: space-between; /* Distribuir los elementos horizontalmente */
+    align-items: center; /* Centrar verticalmente los elementos */
+}
+
+.products .one,
+.products .fraseDispositivo {
+    flex: 1; /* Las imágenes ocuparán el mismo espacio */
+    text-align: center; /* Centrar el contenido dentro del contenedor */
+}
+
+.products .box img {
+    display: block; /* Para que los márgenes automáticos funcionen */
+    margin: 0 auto; /* Establece márgenes automáticos horizontalmente */
+    max-width: 100%; /* Ajustar el ancho máximo de la imagen */
+    height: auto; /* Mantener la proporción de aspecto */
+    width: 150%;
+}
+
+
+.products .one img,
+.products .fraseDispositivo img {
+    display: block; /* Para que los márgenes automáticos funcionen */
+    margin: 0 auto; /* Establece márgenes automáticos horizontalmente */
+    max-width: 100%; /* Ajustar el ancho máximo de la imagen */
+    margin-left: 50%;
+    height: auto; /* Mantener la proporción de aspecto */
+    width: 50%; /* Reducir el tamaño de la imagen según tus necesidades */
+}
+
+.products .box p {
+    color: #000000; /* Color del texto */
+    font-weight: 500;
+    font-size: 20px; /* Tamaño de la fuente */
+    text-align: justify;
+    line-height: 1; /* Ajusta el espaciado entre líneas según tus necesidades */
+    margin-top: 10px; /* Agrega un espacio entre la imagen y el texto */
+    margin-left: 20%;
+    left: 40%;
+}
+
+.products .fraseDispositivo p {
+    color: #000000; /* Color del texto */
+    font-weight: 500;
+    font-size: 20px; /* Tamaño de la fuente */
+    text-align: justify;
+    line-height: 1; /* Ajusta el espaciado entre líneas según tus necesidades */
+    margin-top: 10px; /* Agrega un espacio entre la imagen y el texto */
+    margin-left: 30%;
+    left: 60%;
+}
+
+.products .one p {
+    color: #000000; /* Color del texto */
+    font-weight: 500;
+    font-size: 20px; /* Tamaño de la fuente */
+    text-align: justify;
+    line-height: 1; /* Ajusta el espaciado entre líneas según tus necesidades */
+    margin-top: 10px; /* Agrega un espacio entre la imagen y el texto */
+    margin-left: 30%;
+    left: 40%;
+}
+
+
+
