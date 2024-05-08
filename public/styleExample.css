@@ -1,0 +1,144 @@
+body {
+  background-image: url('https://www.teahub.io/photos/full/33-333601_the-weeknd-hd-wallpaper-894894-the-weeknd-wallpaper.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ /* p {
+    color: rgb(120, 152, 223);
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #646b76;
+  }*/
+
+/*img {
+  display: block;
+   margin-top: auto;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+dl {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+dd {
+    color: rgb(212, 228, 155);
+    font-weight:normal;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+*/
+
+h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.FormInput {
+  text-align: center;
+  padding: 10px; /* Espacio interno de 20 píxeles alrededor del contenido */
+  margin-bottom: 20px; /* Margen inferior de 20 píxeles para separar de otros elementos */
+  border-radius: 5px; /* Bordes redondeados */
+  background-color: #313f87; /* Color de fondo gris claro */
+}
+
+.FormInput label {
+  color: white;
+  font-weight: bold; /* Texto en negrita */
+  text-align: left;
+  display: block; /* Mostrar cada etiqueta en una nueva línea */
+}
+
+.FormInput input {
+  width: 100%; /* Ancho completo del contenedor */
+  padding: 8px; /* Espaciado interno */
+  margin-bottom: 10px; /* Margen inferior para separar los campos de entrada */
+  border: 1px solid #ccc; /* Borde delgado de color gris */
+  border-radius: 4px; /* Bordes redondeados */
+  box-sizing: border-box; /* El tamaño total del elemento incluye el borde y el relleno */
+}
+
+.FormCheck {
+  color: white;
+  /* Estilos para el contenedor */
+  margin-bottom: 20px; /* Margen inferior para separar de otros elementos */
+}
+
+.FormCheck input[type="checkbox"] {
+  color: white;
+  /* Estilos para los checkboxes dentro del contenedor */
+  margin-right: 5px; /* Margen derecho para separar los checkboxes del texto */
+}
+
+.FormCheck label {
+  color: white;
+  display: block; /* Mostrar cada etiqueta en una nueva línea */
+  margin-bottom: 5px; /* Margen inferior para separar las etiquetas */
+}
+
+.hea {
+  display: flex; /* Utiliza flexbox para el contenedor */
+  justify-content: flex-end; /* Alinea los elementos al final del contenedor */
+}
+
+.hea ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hea li {
+  display: inline;
+}
+
+.hea .nav-item {
+  margin-left: 10px; /* Espacio entre cada elemento de la lista */
+}
+
+.hea .nav-link {
+  text-decoration: none;
+  color: rgb(250, 248, 248);
+  padding: 5px 10px;
+}
+
+.hea .nav-link:hover {
+  background-color: #313f87;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+
